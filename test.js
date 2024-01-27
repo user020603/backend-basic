@@ -1,1 +1,0 @@
-console.log("Day la o Master")

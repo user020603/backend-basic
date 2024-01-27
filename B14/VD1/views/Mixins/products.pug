@@ -1,0 +1,12 @@
+include cardMixins.pug
+
+doctype html
+html
+  head
+    title My Products
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 Our Products
+    +productCard('Product 1', 'This is the first product.', 29.99)
+    +productCard('Product 2', 'This is the second product.', 39.99)
+    +productCard('Product 3', 'This is the third product.', 49.99)

@@ -1,0 +1,7 @@
+.bar {
+    width: 30px;
+    margin-right: 10px;
+    background-color: #3f87f5;
+    display: inline-block;
+    vertical-align: bottom;
+}

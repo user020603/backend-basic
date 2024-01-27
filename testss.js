@@ -1,1 +1,1 @@
-console.log("Day la ow Master");
+console.log("this is Master");

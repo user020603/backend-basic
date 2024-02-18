@@ -11,11 +11,9 @@ addButton.addEventListener("click", function () {
     todoList.appendChild(todoItem);
     todoInput.value = "";
 
-
     todoItem.addEventListener("click", function () {
       todoItem.classList.toggle("completed");
     });
-
 
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Xóa";

@@ -47,5 +47,8 @@
 }
 
 #F {
+    display: flex;
     background-color: #687291;
+    justify-content: center;
+    align-items: center;
 }

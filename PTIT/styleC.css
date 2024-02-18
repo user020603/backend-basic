@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: flex-start;
     height: 100vh;
+    animation: gradient 5s infinite;
 }
 
 #A, #B, #C, #D, #E, #F {
@@ -19,21 +20,52 @@
     background: linear-gradient(to bottom, #eeeff2, #D0D0FF);
     margin-right: 10px;
     border-left: 10px dotted #D0D0FF;
-    cursor: pointer;
     transition: all 0.5s ease;
-    box-shadow: 10px 10px 5px grey;
-    animation: mymove 5s infinite;
+    box-shadow: 10px 10px 5px #b153db;
+    animation: move 3s infinite;
 }
 
-@keyframes mymove {
+#F {
+  align-items: center;
+}
+
+@keyframes move {
     0% {top: 0px;}
-    50% {top: 200px;}
+    50% {top: 100%;}
     100% {top: 0px;}
 }
+
+.gradient-background {
+    background: linear-gradient(
+      150deg,
+      #db69d8,
+      #db5d53,
+      #db5385,
+      #b153db,
+      #db7453
+    );
+    background-size: 400% 400%;
+    animation: gradient 16s ease infinite;
+    height: 100vh;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+  
+    50% {
+      background-position: 100% 100%;
+    }
+  
+    100% {
+      background-position: 0% 0%;
+    }
+  }
 
 #A:hover, #B:hover, #C:hover, #D:hover, #E:hover, #F:hover {
     background-color: yellow;
     color: goldenrod;
+    cursor: pointer;
 }
 
 #F {

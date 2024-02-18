@@ -1,0 +1,1 @@
+console.log(Array(1 + 1).join("-- "))

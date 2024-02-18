@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 100vh;
 }
 
 #A, #B, #C, #D, #E, #F {
@@ -25,7 +24,9 @@
 }
 
 #F {
+    align-self: flex-end;
     position: fixed;
     right: 0;
     bottom: 0;
+    margin: auto;
 }

@@ -1,4 +1,4 @@
- // Đề bài: 
+// // Đề bài: 
 // // Cau 1: Tính toán các phép tính sau và phỏng đoán kết quả của console.log().
 // var x = 5;
 // var y = 3;
